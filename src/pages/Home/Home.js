@@ -5,10 +5,6 @@ import "./Home.css"
 
 class Home extends React.Component {
 
-  state = {
-    color: 'Purple'
-  }
-
   render(){
     return (
       <>

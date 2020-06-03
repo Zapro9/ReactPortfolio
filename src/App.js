@@ -17,6 +17,7 @@ class App extends React.Component {
       <Router>
         <Navbar name={this.state.name} portfolio={this.state.tab1}/>
         <Switch>
+          <Route exact path="/" component={Home}/>
           <Route exact path="/home" component={Home}/>
           <Route exact path="/Contact" component={Contact}/>
           <Route exact path="/Portfolio" component={Portfolio}/>
