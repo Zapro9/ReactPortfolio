@@ -18,6 +18,12 @@ nav .brand-logo {
     font-size: 25px;
 }
 
+#linkBtn {
+    background-color: rgb(2, 228, 228);
+    font-size: 20px;
+    text-align: center;
+}
+
 #loginBtn {
     height: 35px;
     background-color: rgb(16, 219, 219);

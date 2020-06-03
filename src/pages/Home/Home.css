@@ -2,12 +2,16 @@ h1 {
     text-align: center;
     margin-top: 45px;
     padding-top: 40px;
+    position: relative;
+    left: 5px;
 
 }
 
-p { 
-    text-align: center;
-    width: 650px;
+.introPara { 
+    text-align: end !important;
+    width: 450px;
+    position: relative;
+    left: 5px;
     margin: auto;
     padding: auto;
     margin-top: 10px;
@@ -21,10 +25,12 @@ body {
 
 .introBanner {
     height: 275px;
-    width: 1650px;
+    width: 650px;
     text-align: center;
+    position: relative;
+    left: 275px;
     margin: auto;
     padding: auto;
     background-color: white;
-    box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 25px 2px black;
 }

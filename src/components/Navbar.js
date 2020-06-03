@@ -12,9 +12,9 @@ const Navbar = (props) => {
       <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down" id="menuList">
         <li><Link to={"/home"} id="linkTags">Home</Link></li>
-        <li><Link to={"/portfolio"} id="linkTags">Portfolio</Link></li>
-        <li><Link to={"/aboutMe"} id="linkTags">About Me</Link></li>
-        <a class="waves-effect waves-light btn" Link to={"/Contacts"}>Contact Me</a>
+        <li><Link to={"/Portfolio"} id="linkTags">Portfolio</Link></li>
+        <li><Link to={"/AboutMe"} id="linkTags">About Me</Link></li>
+        <li><Link to={"/Contact"} id="linkTags">Contact Me</Link></li>
       </ul>
     </div>
   </nav>
