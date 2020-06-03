@@ -1,0 +1,12 @@
+#testImages {
+    width: 850px;
+    position: relative;
+    left: 320px;
+    padding: 25px;
+}
+
+.projectInfo {
+    width: 850px;
+    position: relative;
+    left: 340px;
+}
