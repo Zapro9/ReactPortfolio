@@ -16,6 +16,7 @@
     margin: auto;
     padding: auto;
     margin-top: 2px;
+    margin-bottom: 40px;
     padding-top: 2px;
     padding-bottom: 20px;
     font-size: 25px;
@@ -49,7 +50,7 @@ img {
     text-align: center;
     margin: auto;
     margin-left: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     opacity: 1;
     padding: 25px;
     background-color: rgb(26, 112, 98, 0.6);

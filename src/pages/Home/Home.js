@@ -22,15 +22,15 @@ class Home extends React.Component {
         <p className="testingText">Example Test 1</p>
       </div>
       <div className="displayPhotos">
-        <img src={Example2}/>
+        <img src={Example1}/>
         <p className="testingText">Example Test 2</p>
       </div>
       <div className="displayPhotos">
-        <img src={Example3}/>
+        <img src={Example1}/>
         <p className="testingText">Example Test 3</p>
       </div>
       <div className="displayPhotos">
-        <img src={Example4}/>
+        <img src={Example1}/>
         <p className="testingText">Example Test 4</p>
       </div>
       </>
