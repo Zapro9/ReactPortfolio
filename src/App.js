@@ -7,8 +7,9 @@ import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import AboutMe from "./pages/AboutMe/AboutMe";
 
+
 class App extends React.Component {
-  state={name: "Picture It Done",
+  state={name: "Proctors' Page",
   tab1: "Portfolio"
   }
 
