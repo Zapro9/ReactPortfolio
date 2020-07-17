@@ -1,0 +1,46 @@
+.contactHeader {
+    color: white;
+    position: relative;
+    float: right;
+    margin-right: 130px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.contactName {
+    color: white;
+    position: relative;
+    float: right;
+    margin-right: 130px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.contactNum {
+    color: white;
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 130px;
+    font-size: 30px;
+}
+.contactEmail {
+    color: white;
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 130px;
+    font-size: 30px;
+}
+.contactAddress {
+    color: white;
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-right: 130px;
+    font-size: 30px;
+}

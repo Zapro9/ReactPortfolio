@@ -4,7 +4,7 @@ import "./Form.css";
 
 const Form = (props) => {
     return (
-        <div className="container" style={{width: 45 + "%", marginTop: 200 + "px"}}>
+        <div className="container">
             <div className="row">
                 <form className="col s12">
                     <div className="row">
@@ -19,8 +19,8 @@ const Form = (props) => {
                     </div>
                     <div className="row">
                         <div className="input-field col s12">
-                            <input id="password" type="password" className="validate" />
-                            <label for="password">What can I do for you?</label>
+                            <input id="request" type="text" className="validate" />
+                            <label for="request">What can I do for you?</label>
                         </div>
                     </div>
                     <div className="row">
@@ -29,15 +29,7 @@ const Form = (props) => {
                             <label for="email">Email</label>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col s12">
-                            Tell me more about how I can help!
-                        <div className="input-field inline">
-                                <input id="email_inline" type="email" className="validate" />
-                                <label for="email_inline">Further Details</label>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <button class="btn waves-effect waves-light" type="submit" id="formBtn" name="action">Submit
                         <i class="material-icons right">send</i>
                     </button>

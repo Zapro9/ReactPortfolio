@@ -3,3 +3,16 @@
     margin: auto;
     padding: auto;
 }
+
+.container {
+    position: relative;
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.input-field>label {
+    color: white;
+    font-size: 20px;
+}

@@ -1,8 +1,55 @@
 .AboutMe {
+    height: 55%;
+    width: 75%;
     text-align: center;
+    position: relative;
+    margin: auto;
+    
+    margin-top: 55px;
+    padding: 25px;
+    background-color:  rgb(26, 112, 98, 0.9);
+    box-shadow: 0px 10px 25px rgb(49, 49, 49);
+}
+
+.aboutMe2 {
+    height: 55%;
+    width: 85%;
+    text-align: center;
+    position: relative;
+
+    margin: auto;
+
+    margin-top: 35px;
+    padding: 25px;
+    background-color:  rgb(26, 112, 98, 0.9);
+    box-shadow: 0px 10px 25px rgb(49, 49, 49);
+}
+
+
+
+.aboutBreak {
+    width: 35%;
+}
+
+.aboutHeader {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+    position: relative;
+    left: 5px;
+    font-size: 65px;
+    color: white;
 }
 
 .myInfo {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.secondInfo {
+    text-align: center;
+    font-size: 25px;
+    color: white;
 }

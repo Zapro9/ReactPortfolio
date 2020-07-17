@@ -23,7 +23,7 @@ const Navbar = (props) => {
       </ul>
     </div>
     <div className="sideContainer">
-    <ul id="slide-out" className="sidenav">
+    <ul id="slide-out" className="sidenav sidenav-close">
       <li><Link to={"/home"} id="sideRoutes">Home</Link></li>
       <li><Link to={"/Portfolio"} id="sideRoutes">Portfolio</Link></li>
       <li><Link to={"/AboutMe"} id="sideRoutes">About Me</Link></li>

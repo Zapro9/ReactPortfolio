@@ -50,9 +50,14 @@ nav .brand-logo1 {
     font-size: 25px;
     color: white;
     background-color: rgb(204, 59, 7);
-    outline: 1px solid black;
-    margin-left: 10px;
-    
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 10px;   
+}
+
+#linkTags:hover {
+    background-color: rgb(236, 71, 11);
+    border: 2px solid white;
 }
 
 #linkBtn {
@@ -61,28 +66,25 @@ nav .brand-logo1 {
     text-align: center;
 }
 
-#loginBtn {
-    height: 35px;
-    background-color: rgb(16, 219, 219);
-    color: black;
-}
-
-#loginBtn:hover {
-    background-color: rgb(6, 212, 6);
-}
 
 #sideRoutes {
     font-size: 20px;
+    color: black;
+    background-color: rgb(233, 64, 2);
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 5px;
 }
 
 #sideRoutes:hover {
-    background-color: grey;
+    background-color: rgb(243, 90, 19);
+    color: white;
 }
 
 #slide-out {
     width: 200px;
-    height: 200px;
-    background-color: white;
+    height: 230px;
+    background-color: rgb(23, 189, 153);
     box-shadow: 2px 2px 10px rgb(219, 219, 219);
     text-align: center;
 }
