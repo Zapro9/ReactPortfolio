@@ -13,23 +13,23 @@ class Home extends React.Component {
     return (
       <>
       <div className="introBanner">
-      <h1 className="homeHeader">Welcome to Proctors' Page!</h1>
-      <p className="introPara">Here you will be able to see some of the things that I have created from Web Development to 3D Animations and Graphic Design! Please feel free to have a look around and let me know what you think. If you have a job request please feel free to contact me directly so that we can discuss the specifics of how I can help.</p>
+      <h1 className="homeHeader">Hello and welcome to my website!</h1>
+      <p className="introPara">My name is Zach & here you can see some of my work! Please have a look around and feel free to reach out with any request!</p>
       </div>
       <br></br>
-      <div className="displayPhotos">
+      <div className="displayPhotos1">
         <img src={Example1} className="Project-One portfolioImg" to="./Portfolio" alt="Link to project github page" />
         <p className="testingText">Example Test 1</p>
       </div>
-      <div className="displayPhotos">
+      <div className="displayPhotos1">
         <img src={Example1}/>
         <p className="testingText">Example Test 2</p>
       </div>
-      <div className="displayPhotos">
+      <div className="displayPhotos1">
         <img src={Example1}/>
         <p className="testingText">Example Test 3</p>
       </div>
-      <div className="displayPhotos">
+      <div className="displayPhotos1">
         <img src={Example1}/>
         <p className="testingText">Example Test 4</p>
       </div>

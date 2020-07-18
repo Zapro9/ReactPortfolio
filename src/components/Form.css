@@ -6,13 +6,16 @@
 
 .container {
     position: relative;
-    width: 45%;
+    width: 50%;
     float: left;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 45px;
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
+
+
 .input-field>label {
-    color: white;
+    color: black;
     font-size: 20px;
 }

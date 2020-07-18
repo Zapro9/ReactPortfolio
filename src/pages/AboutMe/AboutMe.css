@@ -1,41 +1,65 @@
 .AboutMe {
-    height: 55%;
-    width: 75%;
+    height: 50%;
+    width: 60%;
     text-align: center;
     position: relative;
     margin: auto;
-    
+    float: left;
     margin-top: 55px;
+    margin-left: 45px;
+    margin-right: auto;
+    margin-bottom: 0px;
     padding: 25px;
-    background-color:  rgb(26, 112, 98, 0.9);
+    padding-bottom: 0px;
+    background-color: rgb(80, 80, 80);
     box-shadow: 0px 10px 25px rgb(49, 49, 49);
+    outline: 2px solid black;
 }
 
-.aboutMe2 {
-    height: 55%;
-    width: 85%;
+#resumeLink {
+    font-size: 45px;
     text-align: center;
+    width: 45%;
     position: relative;
-
+    float: left;
     margin: auto;
-
-    margin-top: 35px;
-    padding: 25px;
-    background-color:  rgb(26, 112, 98, 0.9);
-    box-shadow: 0px 10px 25px rgb(49, 49, 49);
+    margin-left: 20px;
+    color: white;
 }
 
+.resumeLink {
+    color: #C96567;
+    text-decoration: underline;
+    text-decoration-color: #C96567;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
 
+.resumeLink:hover {
+    color: rgb(235, 130, 132);
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 130, 132);
+}
 
 .aboutBreak {
     width: 35%;
+}
+
+.aboutMeHeadshot {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    float: right;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutHeader {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     left: 5px;
     font-size: 65px;
@@ -45,11 +69,6 @@
 .myInfo {
     text-align: center;
     font-size: 25px;
-    color: white;
-}
-
-.secondInfo {
-    text-align: center;
-    font-size: 25px;
-    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white
 }

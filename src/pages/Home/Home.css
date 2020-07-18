@@ -1,48 +1,65 @@
+@media (max-width: 635px) {
+    .displayPhotos1
+    {
+        width: 65% !important;
+        position: relative;
+        margin-left: 80px !important;
+        
+    }
+}
+
+
+
 .homeHeader {
     text-align: center;
-    margin-top: 45px;
+    margin-top: 35px;
     margin-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 40px;
     position: relative;
     left: 5px;
-    font-size: 65px;
+    font-size: 45px;
     color: white;
 }
 
 .introPara { 
     text-align: center;
+    height: 45%;
     width: 85%;
     position: relative;
     margin: auto;
     padding: auto;
     margin-top: 2px;
     margin-bottom: 40px;
-    padding-top: 2px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     font-size: 25px;
-    color: rgb(230, 230, 230);
+    color: white
 }
 
 body {
-    background-color: rgb(92, 92, 92);
+    background-color: #97AABD;
 }
 
 .introBanner {
-    height: 55%;
+    height: 75%;
     width: 85%;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     margin: auto;
+    margin-top: 80px;
     padding: auto;
-    background-color:  rgb(26, 112, 98);
-    box-shadow: 0px 10px 25px rgb(49, 49, 49);
+    background-color:  #C96567;
+    box-shadow: 0px 0px 10px rgb(49, 49, 49);
+    border-radius: 35px;
+    outline-offset: -10px;
 }
 
 img {
     width: 95%;
 }
 
-.displayPhotos {
+.displayPhotos1 {
     width: 45%;
     position: relative;
     float: left;
@@ -50,12 +67,15 @@ img {
     text-align: center;
     margin: auto;
     margin-left: 30px;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     opacity: 1;
     padding: 25px;
-    background-color: rgb(26, 112, 98, 0.6);
-    outline: 2px solid rgb(0, 0, 0);
-    box-shadow: -5px 10px 25px rgb(49, 49, 49);
+    padding-top: 50px;
+    background-color: rgb(40, 40, 42);
+    outline: 1px solid #C96567;
+    outline-offset: -10px;
+    box-shadow: 0px 0px 15px rgb(49, 49, 49);
+    border-radius: 10px;
 }
 
 /* .displayPhotos:hover {

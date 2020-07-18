@@ -20,9 +20,6 @@ class Contact extends React.Component {
               <p className="contactEmail">
                 Z.proctor@hotmail.com
               </p>
-              <p className="contactAddress">
-                2476 Vivian St. Lakewood, CO 80215
-              </p>
           </div>
       </>
     );
